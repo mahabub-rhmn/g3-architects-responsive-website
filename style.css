@@ -103,6 +103,8 @@
 /* Team and features related styles */
 .teams{
     align-items: center;
+    margin-right: 50px;
+    padding: 0 50px;
 }
 
 .our-features{
@@ -122,6 +124,40 @@
     font-weight: 500;
 }
 
+/* some fact related style */
+.facts-container{
+    margin: 0 30px;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-card{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.fact-description{
+    max-width: 540px;
+}
+
 /* Responsive media query */
 @media screen and (max-width: 576px) {
     .navbar,
@@ -136,6 +172,7 @@
 
         .our-features{
             margin-left: 20px;
+            /* margin: 0 20px; */
         }
 }
 
