@@ -17,10 +17,12 @@
     .tex-primary{
         color: #FF900E;
     }
+
     /* Dark02 */
     .text-gray{
         color: #424242
     }
+    
     /* Dark03 */
     .text-light-gray{
     color: #727272;
@@ -118,8 +120,6 @@
     gap: 24px;
 }
 
-
-
 #quick-list{
     font-weight: 500;
 }
@@ -171,8 +171,6 @@
 .featured-photo img{
     max-width: 100%;
 }
-
-
 
 /* some fact related style */
 .facts-container{
@@ -227,6 +225,7 @@
 /* footer */
 .footer-container{
     margin-top: 150px;
+    margin-left: -180px;
     padding-top: 55px;
     /* padding-bottom: 38px; */
     background-color: #FFF4E7;
@@ -235,7 +234,7 @@
 }
 
 .footer-text{
-    margin: auto;
+    margin: 0;
     text-align: center;
 }
 
@@ -272,6 +271,10 @@
 
         .sponsors-companies{
             align-items: center;
+        }
+        .footer-container{
+            margin: auto;
+            max-width: 100%;
         }
 }
 
